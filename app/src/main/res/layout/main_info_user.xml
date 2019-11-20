@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <CheckBox
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:id="@+id/cc_user"
+            style="@style/info_check" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll_userinfo"
+            android:orientation="horizontal"
+            >
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="24dp"
+            android:text="user"
+            android:textSize="20dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="top"
+            style="@style/info_text"/>
+
+            <TextView
+                style="@style/info_text"
+                android:id="@+id/info_address"
+                android:layout_width="200dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="8dp"
+                android:text="dd.dd.dd.dd.dd.dd"
+                android:textSize="20dp" />
+
+            <TextView
+            android:id="@+id/info_port"
+            android:layout_width="60dp"
+            android:layout_height="24dp"
+            android:text="proto"
+            android:textSize="20dp"
+            android:layout_marginLeft="8dp"
+            style="@style/info_text"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

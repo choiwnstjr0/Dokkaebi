@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/dok_img1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/dokkaebi"
+        android:scaleType="fitXY"
+        android:visibility="invisible"/>
+
+
+    <ImageView
+        android:id="@+id/dok_img2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/dokkaegbi2"
+        android:scaleType="fitXY"
+        android:visibility="visible" />
+
+</FrameLayout>
