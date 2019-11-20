@@ -17,5 +17,5 @@ public class AlarmReceiver extends BroadcastReceiver {
         this.context.startActivity(gointent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
         //메인으로 보내면 메인에 있는 상황에서는 인텐트가 하나가 더쌓여버린다.
         // throw new UnsupportedOperationException("Not yet implemented");
-    }
+    }//
 }
